@@ -1,0 +1,28 @@
+{
+  "name": "spri3-hit_v2",
+  "version": "1.0.0",
+  "description": "sprint3-Express -ejs-v2-hit games",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node run server.js",
+    "dev": "nodemon run server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Fe24Le/Sprint3-Hit_V2.git"
+  },
+  "author": "Hecto Fernando Calisaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fe24Le/Sprint3-Hit_V2/issues"
+  },
+  "homepage": "https://github.com/Fe24Le/Sprint3-Hit_V2#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

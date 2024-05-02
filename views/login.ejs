@@ -1,0 +1,117 @@
+
+<!doctype html>
+
+<html lang="es">
+    
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login| HitGames</title>
+
+    <!-- FUENTE GOOGLE FONTS : Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ICONS: Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <!-- ICONS: Line Awesome -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Animaciones AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon"> 
+        
+    </head>
+    
+    <body>
+
+          <!-- =================================
+           HEADER MENU
+        ================================== -->
+        <div class="hm-header">
+
+            <div class="container">
+                <div class="header-menu">
+
+                    <div class="hm-logo">
+                        <a class="anclaLogo" href="/">
+                            <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                                <span>HitGames</span>
+                         </a>
+                    </div>
+
+
+                    <nav class="hm-menu">
+                        <ul>
+                            <li><a href="register">Registrarse</a></li>
+                            <li><a href="login">Iniciar Sesión</a></li>
+                        </ul>
+
+
+                        <div class="hm-icon-cart">
+                            <a href="#">
+                                <i class="las la-shopping-cart"></i>
+                                <span>0</span>
+                            </a>
+                        </div>
+
+                        <div class="icon-menu">
+                            <button type="button"><i class="fas fa-bars"></i></button>
+                        </div>
+
+                    </nav>
+
+                </div>
+            </div>
+
+        </div>
+ <!-- =================================
+           HEADER MENU Movil
+        ================================== -->
+        <div class="header-menu-movil">
+            <button class="cerrar-menu"><i class="fas fa-times"></i></button>
+            <ul>
+                <li><a href="register">Registrarse</a></li>
+                <li><a href="login">Iniciar Sesión</a></li>
+            </ul>
+        </div>
+
+    
+        <div id="contenedor">
+            
+            <div id="contenedorcentrado">
+                <div id="derecho">
+                    <div class="titulo">
+                        Bienvenido
+                    </div>
+                    <hr>
+                </div>
+
+                <div id="login">
+                    <form id="loginform" action="/login" method="POST">
+                        <label for="usuario">Usuario</label>
+                        <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
+                        
+                        <label for="password">Contraseña</label>
+                        <input id="password" type="password" placeholder="Contraseña" name="password" required>
+                        
+                        <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                    </form>
+                    
+                </div>
+
+                <div id="derecho">    
+                    <div class="pie-form">
+                        <a href="#">¿Perdiste tu contraseña?</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
